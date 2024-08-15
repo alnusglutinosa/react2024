@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client'
 
-const Heading = ({ text='', color }) => {
+const Heading = ({ text, color }) => {
   return <h1 style={ {color}}>{text}</h1>
 }
 
