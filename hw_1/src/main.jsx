@@ -2,13 +2,13 @@ import React from 'react';
 import { createRoot } from 'react-dom/client'
 
 const Heading = ({ text, color }) => {
-  return <h1 style={ {color}}>{text}</h1>
+  return <h1 style={ {color} }>{text}</h1>
 }
 
 const Description = ({ textStyle }) => {
   const userName = prompt('Please enter your name');
 
-  return <h2 style={ {fontStyle: textStyle}}>
+  return <h2 style={ {fontStyle: textStyle} }>
       {userName ? `${userName}'s` : 'My'} first React application.
     </h2>
 }
