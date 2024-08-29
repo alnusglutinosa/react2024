@@ -1,0 +1,7 @@
+.task-item {
+    padding: 4px 0;
+}
+
+.task-item__title {
+    margin-right: 8px;
+}

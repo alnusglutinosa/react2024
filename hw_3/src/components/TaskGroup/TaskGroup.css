@@ -1,0 +1,13 @@
+.task-group {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: 2px solid #417cbd;
+    margin: 8px;
+    padding: 8px;
+}
+
+.task-group__count {
+    color: #3689e5;
+    font-weight: 700;
+}

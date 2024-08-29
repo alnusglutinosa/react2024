@@ -1,0 +1,32 @@
+.btn-task {
+    background: none;
+    color: #fff;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    border-radius: 3px;
+    padding: 2px;
+    background-color: #108507;
+}
+
+.btn-task:not(:last-child) {
+  margin-right: 4px;
+}
+
+.btn-task:hover {
+  opacity: .9;
+}
+
+.btn-task--0 {
+  background-color: #108507;
+}
+
+.btn-task--1 {
+    background-color: #24a5ef;
+}
+
+.btn-task--2 {
+  background-color: #e6312f;
+}
