@@ -1,0 +1,8 @@
+.player-info {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 16px;
+    padding: 10px;
+    border: 1px solid #333;
+}

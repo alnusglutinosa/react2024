@@ -1,0 +1,11 @@
+.user-form__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.error {
+    color: #fb1515;
+}
