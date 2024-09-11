@@ -1,0 +1,9 @@
+td {
+    min-width: 75px;
+    border: 1px solid #ccc;
+}
+
+td.active {
+    color: red;
+    font-weight: bold;
+}
